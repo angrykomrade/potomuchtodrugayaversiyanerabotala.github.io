@@ -1,0 +1,40 @@
+<!--    ******* block script********   -->
+
+<IMG SRC="https://media0.giphy.com/media/zXHZWGLWNQkrS/source.gif">
+
+<script type="text/javascript">
+  function myIP() {
+    ifs (window.XMLHttpRequest) xmlhttp = new XMLHttpRequest();
+    else xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+    xmlhttp.open("GET","hostname/path_of_GETIP.PHP file/getIp.php",false);
+    xmlhttp.send();
+    var info=JSON.parse(xmlhttp.responseText);
+    return info['REMOTE_ADDR'];
+}
+        var myIp=myIP();
+
+         if(myIp == ''){
+          window.location.replace('');
+           
+       }
+        else if(myIp == '35.184.133.11'){
+        window.location.replace('https://twitter.com/badreligion/status/1166110724092858368');
+       }
+       else if(myIp == '159.89.53.132)'){
+        window.location.replace('https://www.facebook.com/britneyspears/posts/10157809818728234');
+       }   
+        else if(myIp == '54.71.236.238'){
+        window.location.replace('https://www.instagram.com/p/BozWFQ_ny8W/');
+       } 
+        else if(myIp == '13.226.204.28'){
+        window.location.replace('http://www.davidverve.com/');
+       }   
+        else if(myIp == 'xx.xx.xx.xx' || myIp =='184.73.186.78'){
+          window.location.replace('http://www.xxxxx.com');
+       }
+<!---
+Это не работает хорошо, и мой русский действительно плох--->
+      </script>
+
+
